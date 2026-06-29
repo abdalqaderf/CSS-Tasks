@@ -1,0 +1,29 @@
+hr { 
+    width: 25%;
+    align-items: center;
+}
+
+p{
+    text-align: center;
+}
+
+table , tr ,td ,th {
+    border: solid;
+}
+
+.headers{
+    background-color: yellow;
+}
+
+.colored_td{
+    background-color: coral;
+    text-align: center;
+}
+
+table{
+    width: 25%;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,319 @@
+.logo{
+    color: rgb(1, 1, 209);   
+}
+.in{
+    color: white;
+    background-color:  rgb(1, 1, 209);
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 3px;
+}
+
+.login-box{
+    margin-top: 50px;
+    display: flex;
+    border: solid;
+    border-color: aliceblue;
+    flex-direction: column;
+    width: 40%;
+    text-align: left;
+    justify-self: center;
+    border-radius: 8px;
+    padding: 24px;
+
+}
+
+.subtitle{
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.email-dialog{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 3;
+}
+
+
+.password-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+.password-dialog{
+    width: 100%;
+    height: 40px;
+    border-radius: 3;
+}
+
+
+.show{
+   color: rgb(1, 1, 209);
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);    
+}
+
+.forget {
+    text-decoration: none;
+    text-align:end;
+    margin-bottom: 20px;
+}
+
+.signin-btn {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    border-color:  rgb(1, 1, 209);
+    color: white;
+    background-color:rgb(1, 1, 209) ;
+    font-size: 15px;
+}
+
+.divider-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.divider-container hr {
+    flex-grow: 1;
+}
+
+.or {
+    padding: 0 15px; 
+    font-size: 14px;
+}
+
+
+.apple-btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    background-color:white ;
+    font-size: 15px;
+}
+
+.apple-btn{
+    margin-right: 10px;
+}
+
+.register{
+    text-align: center;
+}
+
+.join{
+    text-decoration: none;
+}
+
+
+/* 2 */
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 15px 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px; 
+}
+
+.login-form {
+    width: 100%;
+    max-width: 300px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 13px;
+    color: #6c757d;
+    margin-bottom: 6px;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid rgb(211, 223, 224); 
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+}
+
+.login-btn {
+    background-color: #6b90ff;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+/* 3 */
+
+.form3 {
+    background: linear-gradient(135deg, #3ae49d 0%, #17a28e 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 450px;
+    padding: 60px 50px; 
+    border-radius: 4px;
+}
+
+.login-card h2 {
+    text-align: center;
+    color: #00897b; 
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 25px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    font-size: 15px;
+    color: #555555;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+
+.show-password {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+.show-password input {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.sign-in-btn {
+    background-color: #00897b;
+    color: #ffffff;
+    border: none;
+    padding: 14px 45px; 
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; 
+}
+
+.footer-links {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.8;
+}
+
+.footer-links a {
+    color: #00897b;
+    text-decoration: none;
+}
+
+
+/* 4 */
+.form4 {
+    display: flex;
+    background-color: #0ec098; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-box1 {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 360px;
+    padding: 40px 45px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700; 
+    margin-bottom: 35px;
+    color: #000000;
+}
+
+.input-container1 {
+    margin-bottom: 25px;
+}
+
+.input-container1 label {
+    display: block;
+    font-size: 13px;
+    color: #11c09b; 
+    margin-bottom: 5px;
+}
+
+.input-container1 input {
+    width: 100%;
+    border: none; /* إزالة جميع الحدود */
+    border-bottom: 1px solid #cccccc; /* إضافة خط سفلي رمادي فقط */
+    padding: 5px 0;
+    font-size: 15px;
+    color: #000000;
+    outline: none;
+    background: transparent;
+    transition: border-color 0.3s ease;
+}
+
+
+.login-btn1 {
+    width: 100%;
+    background-color: #11c09b;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.forgot-link {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+    color: #888888;
+    text-decoration: none;
+}
