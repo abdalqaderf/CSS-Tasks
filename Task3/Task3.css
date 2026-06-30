@@ -1,0 +1,117 @@
+.h1-1{
+    color: white;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(146, 149, 172);
+    color: white;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(147, 108, 184);
+    margin-top: 100px;
+    max-width: 500px;
+    width: 100%;
+    padding: 0 40px;
+    border-radius: 8PX;
+}
+
+
+.email , .pass , .conf-pass, .fi-name , .la-name{
+    height: 30px;
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 4PX;
+    border-color: white;
+}
+
+.f-name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.fi-name , .la-name{
+    width: 45%;;
+}
+
+.checkbox{
+    width: auto;
+    display: inline;
+    height: auto;    
+}
+
+.up-btn {
+    border-radius:7px ;
+    border-color:rgb(105, 105, 105);
+    width: 80%;
+    height:40px ;
+    background-color: rgb(105, 105, 105);
+}
+
+.for1{
+    color: white;
+}
+
+
+/* 2 */
+.main22{
+    background: linear-gradient(135deg, #c915ab 0%, #80458b 100%);
+    display: flex;
+    justify-content: center;
+}
+.main2{
+    border-radius: 10px;
+    margin: 70px 0;
+    display: flex;
+    width: 60%;
+    flex-direction:row;
+    background-color: white;   
+}
+.left-side{
+    width: 50%;
+}
+img{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-self: center;
+    position: relative;
+    top: 25%;
+}
+
+
+.right-side{
+    width: 50%;
+
+}
+.container-for-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.in-email , .in-pass {
+    width: 75%;
+    height: 30px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.log-btn {
+    color: white;
+    width: 75%;
+    height: 40px;
+    margin: 15px 0;
+    border-radius: 10px;
+    background-color: green;
+}
+.for2{
+    color: green;
+    text-decoration: none;
+}
